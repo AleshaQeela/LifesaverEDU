@@ -56,6 +56,23 @@ button:hover {
   background-color: #8B0000;
 }
 
+.button {
+  display: inline-block;
+  background-color: red;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 18px;
+  transition: background-color 0.3s;
+  margin-bottom: 40px;
+}
+
+.button:hover {
+  background-color: #8B0000;
+}
+
 
 header {
   background-color: rgba(255, 255, 255, 0.9);
@@ -197,4 +214,23 @@ footer {
 .info-box p {
   font-size: 16px;
   line-height: 1.6;
+}
+
+.tips {
+  background: white;
+  padding: 20px 30px;
+  max-width: 700px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.tips p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.tips h2 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
 }
