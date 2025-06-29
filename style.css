@@ -38,20 +38,8 @@ body {
   margin-top: 30px;
 }
 
-.cta-button {
-  display: inline-block;
-  background-color: red;
-  color: white;
-  padding: 15px 30px;
-  text-decoration: none;
-  border-radius: 8px;
-  font-weight: 600;
-  font-size: 18px;
-  transition: background-color 0.3s;
-}
-
-.cta-button:hover {
-  background-color: #8B0000;
+.cta-section .button {
+  margin-bottom: 40px;
 }
 
 header {
